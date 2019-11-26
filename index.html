@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Product Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron">
+            <h1 class="text-center">FaST-LMM &amp; PySnpTools</h1>
+<p class="text-center">Established: October 14, 2006</p>
+            <img src="DNA-StrandNIST.1200x400.jpg" alt="" class="img-fluid"> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="text-center col-md-6 col-12">
+          <h3>New</h3>
+          <p>Ludicrous speed LMM can run 1 million samples.</p>
+          <p>The new version of FaST-LMM has now been optimized for use in the cloud and cloud sized data. Read about it <a href="http://biorxiv.org/content/early/2017/06/23/154682">here</a>.&nbsp;</p>
+        </div>
+        <div class="text-center col-md-6 col-12">
+          <h3>FaST-LMM Overview</h3>
+          <p class="text-justify">FaST-LMM, (Factored Spectrally Transformed Linear Mixed Models) is a set of tools for efficiently performing genome-wide association studies (GWAS), prediction, and heritability estimation on large data sets. FaST-LMM runs on both Windows and Linux, and has been tested on data sets with over one million samples. The most up-to-date version of FaST-LMM is written in python and available on <a href="https://github.com/fastlmm">GitHub</a>. It supports univariate GWAS [1, 4], tests for epistasis, corrections for cellular heterogeneity via the inclusion of principal components [2], set association tests [3], and heritability estimation [5]. A C++ version, including <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52614">Windows binary</a>, <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52588">Linux binary</a>, and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52559">source</a>, supports univariate GWAS and limited epistatic testing. Another version supporting corrections for cellular heterogeneity is available in Python and R.</p>
+          <a class="btn btn-info btn-lg" href="https://github.com/fastlmm/FaST-LMM" role="button">Download</a>
+        </div>
+      </div>
+      <div class="row">
+          <div class="text-center col-md-6 col-12">
+          <h3>PySnpTools Overview</h3>
+          <p class="text-justify">PySnpTools is a library for reading and manipulating genetic data. It efficiently reads genetic PLINK formats including *.bed/bim/fam and phenotype files. Also, efficiently read parts of files and standardize data.</p>
+          <p class="text-justify">New:&nbsp;&nbsp;Generate synthetic SNP data on the fly. Support larger in-memory data via on-disk memory mapping.&nbsp;Run loops in parallel on multiple processes, threads, or clusters.&nbsp;Automatically copy files to and from any remote storage.</p>
+          <div>
+            <table class="docutils field-list" frame="void" rules="none">
+              <tbody valign="top">
+                <tr class="field-odd field">
+                  <td class="field-body">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+<a class="btn btn-info btn-lg" href="https://github.com/fastlmm/pysnptools" role="button">Download</a>
+        </div>
+        <div class="col-xl-6">&nbsp;</div>
+      </div>
+    </div>
+    <hr>
+    <section>
+      <h2 class="text-center">Main Bibliography</h2>
+      <div class="container">
+        <div class="row">
+          <ul>
+            <li> [1] Lippert, J. Listgarten, Y. Liu, C.M. Kadie, R.I. Davidson, D. Heckerman.<a href="http://www.nature.com/nmeth/journal/v8/n10/abs/nmeth.1681.html"> FaST linear mixed models for genome-wide association studies</a>. <em>Nature Methods</em>, 8: 833-835, Oct 2011 (doi:10.1038/nmeth.1681).</li>
+            <li>[2] Zou, C. Lippert, D. Heckerman, M. Aryee, J. Listgarten. <a href="http://dx.doi.org/10.1038/NMETH.2815">Epigenome-wide association studies without the need for cell-type composition</a>. <em>Nature Methods</em>, 11: 309–311, Jan 2014 (doi:10.1038/nmeth.2815). </li>
+            <li>[3] Lippert, Jing Xiang, Danilo Horta, Christian Widmer, Carl M. Kadie, D. Heckerman, J. Listgarten. <a href="http://bioinformatics.oxfordjournals.org/content/early/2014/09/07/bioinformatics.btu504">Greater power and computational efficiency for kernel-based association testing of sets of genetic variants</a>. <em>Bioinformatics</em>, 30, July 2014 (doi: 10.1093/bioinformatics/btu504). </li>
+            <li>[4] Widmer, C. Lippert, O. Weissbrod, N. Fusi, C.M. Kadie, R.I. Davidson, J. Listgarten, and D. Heckerman. <a href="http://www.nature.com/srep/2014/141112/srep06874/full/srep06874.html">Further Improvements to Linear Mixed Models for Genome-Wide Association Studies</a>. <em>Scientific Reports</em>, 4, 6874, Nov 2014 (doi:10.1038/srep06874).</li>
+            <li> [5] Heckerman, D. Gurdasani, C. Kadie, C. Pomilla, T. Carstensen, H. Martin, K. Ekoru, R.N. Nsubuga, G. Ssenyomo A. Kamali, P. Kaleebu, C. Widmer, and M.S. Sandhu. <a href="http://www.pnas.org/content/113/27/7377.abstract">Linear mixed model for heritability estimation that explicitly addresses environmental variation</a>. <em>PNAS</em>, 113: 7377–7382, July 2016 (doi: 10.1073/pnas.1510497113).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+<section>
+      <h2 class="text-center">Full Annotated Bibliography</h2>
+      <div class="container">
+        <div class="row">
+          	<p><strong>Univariate GWAS</strong></p>
+<p>[1] H. Kang, N. Zaitlen, C. Wade, A. Kirby, D. Heckerman, M. Daly, and E. Eskin, <a href="http://www.genetics.org/cgi/content/full/178/3/1709">Efficient Control of Population Structure in Model Organism Association Mapping</a>, Genetics, 178:1709-1723, March, 2008 (doi: 10.1534/genetics.107.080101).</p>
+<p>Describes early efforts to make linear mixed models more computationally efficient.</p>
+<p>[2] Lippert<strong><sup>*</sup></strong>, J. Listgarten<strong><sup>*</sup></strong>, Y. Liu, C.M. Kadie, R.I. Davidson, D. Heckerman<strong><sup>*</sup></strong>. <a href="http://www.nature.com/nmeth/journal/v8/n10/abs/nmeth.1681.html">FaST linear mixed models for genome-wide association studies</a>. <em>Nature Methods</em>, 8: 833-835, Oct 2011 (doi:10.1038/nmeth.1681). (<sup>*</sup>equal contributions)</p>
+<p>Shows how exact linear-mixed-model computations can be performed in time and memory <em>linear</em> in the number of individuals when the number of SNPs used in the similarity matrix is less than the number of individuals (<em>i.e.,</em> when the similarity matrix is low rank). This work also describes an approach to select SNPs to achieve this condition with linkage-disequilibrium-based pruning. In addition, this work shows that computations are quadratic in time and memory when the similarity matrix is full rank.</p>
+<p>[3] J. Listgarten<strong><sup>*</sup></strong>, C. Lippert<strong><sup>*</sup></strong>, C.M. Kadie, R.I. Davidson, E. Eskin, D. Heckerman<strong><sup>*</sup></strong>. <a href="http://www.nature.com/nmeth/journal/v9/n6/abs/nmeth.2037.html">Improved linear mixed models for genome-wide association studies</a>. <em>Nature Methods</em>, 9: 525-526, June 2012 (doi:10.1038/nmeth.2037). (<sup>*</sup>equal contributions)</p>
+<p>Describes a method for selecting SNPs for the linear-mixed-model similarity matrix by identifying SNPs that are predictive of the phenotype. A later publication [6] shows this approach yields poor control of type I error, whereas the original selection method in [2] performs well. This work also shows that the inclusion of irrelevant SNPs in the similarity matrix leads to inflated test statistics and reduced power, a phenomenon called “dilution”. Although an incorrect explanation for dilution is offered here, a correction is given in [5]. Finally, there is a bug in the analysis of the synthetic data, which makes the prediction-based selection method appear to perform better than it actually does.</p>
+<p>[4] J. Listgarten<strong><sup>*</sup></strong>, C. Lippert<strong><sup>*</sup></strong>, D. Heckerman<strong><sup>*</sup></strong>. <a href="http://www.nature.com/ng/journal/v45/n5/abstract/ng.2620.html">FaST-LMM-Select for addressing confounding from spatial structure and rare variants</a>. <em>Nature Genetics </em>(2013) doi:10.1038/ng.2620 (<sup>*</sup>equal contributions)</p>
+<p>Shows how the feature-selection method in [3] addresses an open problem in statistical genetics that had been published in Nature Genetics. Based on results in [6], however, we recommend that the selection approach in [2] be used instead.</p>
+<p>[5] C. Lippert<strong><sup>*</sup></strong>, Gerald Quon, Eun Youg Kang, Carl M. Kadie, J. Listgarten<strong><sup>*</sup></strong>, D. Heckerman<strong><sup>*</sup></strong>. <a href="http://www.nature.com/srep/2013/130509/srep01815/full/srep01815.html">The benefits of selecting phenotype-specific variants for applications of mixed models in genomics</a>. <em>Scientific Reports</em>(2013) doi:10.1038/srep01815 (<sup>*</sup>equal contributions)</p>
+<p>Describes additional experiments regarding the feature-selection method in [3] as applied to GWAS and prediction. Again, based on the results in [6], we recommend that the selection approach in [2] be used instead.</p>
+<p>[6] C. Widmer*, C. Lippert*, O. Weissbrod, N. Fusi, C.M. Kadie, R.I. Davidson, J. Listgarten, and D. Heckerman*. <a href="http://www.nature.com/srep/2014/141112/srep06874/full/srep06874.html">Further Improvements to Linear Mixed Models for Genome-Wide Association Studies</a>. <em>Scientific Reports</em>, 4, 6874, Nov 2014 (doi:10.1038/srep06874). (<sup>*</sup>equal contributions)</p>
+<p>Describes the latest version of FaST-LMM. It shows that selecting SNPs for the linear-mixed-model similarity matrix through pruning via linkage disequilibrium (as in [2]) works well to control type I error, whereas selecting SNPs that are predictive of the phenotype (as in [3]) does not.</p>
+<p>[7] C. Lippert and D. Heckerman. <a href="http://xrds.acm.org/article.cfm?aid=2788502">Computational and statistical issues in personalized medicine</a>. <em>XRDS</em> 21, 24-27, Summer 2015 (doi:10.1145/2788502).</p>
+<p>Describes statistical issues in GWAS with linear mixed models from a graphical-model perspective.</p>
+<p><strong>Set Tests for GWAS</strong></p>
+<p>[8] Listgarten<strong><sup>*</sup></strong>, C. Lippert<strong><sup>*</sup></strong>, Eun Youg Kang, Jing Xiang, Carl M. Kadie, D. Heckerman<strong><sup>*</sup></strong>. <a href="http://bioinformatics.oxfordjournals.org/content/29/12/1526">A powerful and efficient set test for genetic markers that handles confounders.</a> <em>Bioinformatics</em>, 29:1526-1533, April 2013 (doi:10.1093/bioinformatics/btt177). (<sup>*</sup>equal contributions)</p>
+<p>Shows that the LRT can be more powerful than a score test for set association tests. This work is limited to similarity matrices that are low rank and includes an efficient algorithm for this case. This limitation is relaxed in [9].</p>
+<p>[9] C. Lippert, Jing Xiang, Danilo Horta, Christian Widmer, Carl M. Kadie, D. Heckerman*, J. Listgarten. <a href="http://bioinformatics.oxfordjournals.org/content/30/22/3206">Greater power and computational efficiency for kernel-based association testing of sets of genetic variants</a>. <em>Bioinformatics</em>, 2014 (doi: 10.1093/bioinformatics/btu504). (*corresponding author)</p>
+<p>Makes theoretical arguments and demonstrates empirically that the LRT is often more powerful than the traditionally-used score test (e.g. SKAT). It also has exposition on how to do a number of algebraic computations for set tests with either a low- or full-rank background kernel efficiently.</p>
+<p><strong>Data Transformations/Pre-processing for GWAS</strong></p>
+<p>[10] N. Fusi*, C. Lippert, N. D. Lawrence and O. Stegle*. <a href="http://www.nature.com/ncomms/2014/140919/ncomms5890/full/ncomms5890.html">Warped linear mixed models for the genetic analysis of transformed phenotypes</a>. <em>Nature Communications</em>, 2014.</p>
+<p>Shows how monotonically transforming the phenotype can increase power in genome-wide association studies and increase the accuracy of heritability estimation and phenotype prediction.</p>
+<p>[11] O. Weissbrod, C. Lippert, D. Geiger, and D. Heckerman.  <a href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3285.html">Accurate liability estimation improves power in ascertained case-control studies</a>.  <em>Nature Methods</em>, Feb 2015 (doi:10.1038/nmeth.3285).</p>
+<p>Describes an approach to pre-process ascertained case-control-study data that leads to improved power when analyzed with a linear mixed model.</p>
+<p><strong>Epigenetic Cellular Heterogeneity Correction</strong></p>
+<p>[12] Zou, C. Lippert, D. Heckerman, M. Aryee, Jennifer Listgarten. <a href="http://www.nature.com/nmeth/journal/v11/n3/abs/nmeth.2815.html">Epigenome-wide association studies without the need for cell-type composition</a>. <em>Nature Methods</em>, doi:10.1038/NMETH.2815.</p>
+<p>Shows how FaST-LMM, with the inclusion of principal components (PCs) as covariates, can correct for the confounding effects of multiple cell types. Although a method for selecting PCs is presented here, the method in [6] is now recommended.</p>
+<p><strong>Epistatic Genome-Wide Association</strong></p>
+<p>[13] Lippert<strong><sup>*</sup></strong>, J. Listgarten<strong><sup>*</sup></strong>, Robert Davidson, Scott Baxter, Hoifung Poon, Carl M. Kadie, D. Heckerman<strong><sup>*</sup></strong>. <a href="http://www.nature.com/srep/2013/130122/srep01099/full/srep01099.html">An Exhaustive Epistatic SNP Association Analysis on Expanded Wellcome Trust Data</a>, <em>Scientific Reports</em>, 2013, doi:10.1038/srep01099 (<sup>*</sup>equal contributions)</p>
+<p>Presents results for all pairwise-epistatic tests for all phenotypes in the WTCCC1 data, using a linear mixed model with a low-rank similarity matrix based on the feature-selection method in [3]. As described, based on the results in [6], we now recommend that the feature-selection method in [2] be used instead. The rank order of the hits may be approximately correct, and therefore we have left these results on the Azure marketplace <a href="http://datamarket.azure.com/dataset/microsoftresearch/epistasisgwas">http://datamarket.azure.com/dataset/microsoftresearch/epistasisgwas</a>.</p>
+<p><strong>GWAS for &#8220;functional traits&#8221; such as longitudinal traits</strong></p>
+<p>[14] Fusi and J. Listgarten.  Leveraging Non-Linear Genetic Effects on Functional Traits for GWAS, <em>Proceedings of RECOMB 2016.</em></p>
+<p>Introduces a model for performing GWAS for vector-valued traits which vary smoothly in time. The framework is expressive and computationally efficient, but the null model is not nested inside of the alternative model, something we are currently addressing in ongoing work.</p>
+<p><strong>Heritability estimation</strong></p>
+<p>[15] N. Furlotte, D. Heckerman, and C. Lippert.  <a href="http://www.nature.com/jhg/journal/vaop/ncurrent/full/jhg201415a.html">Quantifying the uncertainty in heritability</a>.  <em>Journal of Human Genetics</em> 27, March 2014 (doi: 10.1038/jhg.2014.15).</p>
+<p>Applies the spectral-decomposition trick from FaST-LMM [2] to speed up Bayesian estimates of heritability.</p>
+<p>[16] Heckerman, D. Gurdasani, C. Kadie, C. Pomilla, T. Carstensen, H. Martin, K. Ekoru, R.N. Nsubuga, G. Ssenyomo A. Kamali, P. Kaleebu, C. Widmer, and M.S. Sandhu. <a href="http://www.pnas.org/content/113/27/7377.abstract">Linear mixed model for heritability estimation that explicitly addresses environmental variation</a>. <em>PNAS</em>, 113: 7377–7382 (doi: 10.1073/pnas.1510497113).</p>
+<p>Describes a way to generalize linear mixed models to take spatial location into account when jointly modeling the influences of genomics and environment on traits.</p>
+<p>
+			</p>
+		</div>
+        </div>
+      </div>
+    </section>
+
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
